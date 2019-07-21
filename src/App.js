@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import quizQuestions from './api/quizQuestions';
 import Quiz from './components/Quiz';
 import Result from './components/Result';
-import logo from './assets/images/confidence6.jpg';
+import logo from './svg/logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -125,7 +125,7 @@ class App extends Component {
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Emojitron 1.0</h2>
-          <h4>Find words for your feelings...</h4>
+          <h4>How are you feeling?</h4>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
