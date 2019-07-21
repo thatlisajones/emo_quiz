@@ -1,86 +1,86 @@
 var quizQuestions = [
     {
+        question: "Are your needs being met?",
+        answers: [
+            {
+                type: "Group1",
+                content: "Yes"
+            },
+            {
+                type: "Group2",
+                content: "No"
+            },
+            {
+                type: "Group3",
+                content: "Don't know"
+            }
+        ]
+    },
+    {
         question: "Which emoji best matches your mood?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Halo"
+                type: "Group1",
+                content: "svg11"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
+                type: "Group2",
+                content: "svg12"
             },
             {
-                type: "Sony",
-                content: "Uncharted"
+                type: "Group3",
+                content: "svg13"
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "Which emoji do you like most?",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box"
+                type: "Group1",
+                content: "svg21"
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
+                type: "Group2",
+                content: "svg22"
             },
             {
-                type: "Sony",
-                content: "Playstation 1"
+                type: "Group3",
+                content: "svg23"
             }
         ]
     },
     {
-        question: "Which of these racing franchises would you prefer to play a game from?",
+        question: "Which emoji do you like least?",
         answers: [
             {
-                type: "Microsoft",
-                content: "Forza"
+                type: "Group1",
+                content: "svg31"
             },
             {
-                type: "Nintendo",
-                content: "Mario Kart"
+                type: "Group2",
+                content: "svg32"
             },
             {
-                type: "Sony",
-                content: "Gran Turismo"
+                type: "Group3",
+                content: "svg33"
             }
         ]
     },
     {
-        question: "Which of these games do you think is best?",
+        question: "Which emoji best matches your environment?",
         answers: [
             {
-                type: "Microsoft",
-                content: "BioShock"
+                type: "Group1",
+                content: "svg41"
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
+                type: "Group2",
+                content: "svg42"
             },
             {
-                type: "Sony",
-                content: "Final Fantasy VII"
-            }
-        ]
-    },
-    {
-        question: "What console would you prefer to own?",
-        answers: [
-            {
-                type: "Microsoft",
-                content: "X-Box One"
-            },
-            {
-                type: "Nintendo",
-                content: "Wii U"
-            },
-            {
-                type: "Sony",
-                content: "Playstation 4"
+                type: "Group3",
+                content: "svg43"
             }
         ]
     }
