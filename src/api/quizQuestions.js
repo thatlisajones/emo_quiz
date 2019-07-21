@@ -1,6 +1,6 @@
 var quizQuestions = [
     {
-        question: "What franchise would you rather play a game from?",
+        question: "Which emoji best matches your mood?",
         answers: [
             {
                 type: "Microsoft",
