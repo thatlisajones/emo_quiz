@@ -21,7 +21,7 @@ var quizQuestions = [
         answers: [
             {
                 type: "Group1",
-                content: "svg11"
+                content: <img src={'./assets/11.jpg'} alt="emoji11" />
             },
             {
                 type: "Group2",

@@ -5,6 +5,7 @@ import Result from './components/Result';
 import logo from './svg/logo.svg';
 import './App.css';
 
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -124,8 +125,8 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Emojitron 1.0</h2>
-          <h4>How are you feeling?</h4>
+          <h2>Emojitron 2.0</h2>
+          <h4>Find words for your feelings.</h4>
         </div>
         {this.state.result ? this.renderResult() : this.renderQuiz()}
       </div>
