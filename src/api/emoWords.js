@@ -1,4 +1,4 @@
-[
+var emotionsAPI = [
   {
     "feeling_id": 1,
     "needs_group": "Yes",
@@ -795,4 +795,5 @@
   }
   ]
   
+module.exports = emotionsAPI;
  

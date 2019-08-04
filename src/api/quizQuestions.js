@@ -1,3 +1,6 @@
+var emotionWords = require("./emoWords")
+console.log(emotionWords[0].feeling_image);
+
 var quizQuestions = [
     {
         question: "Are your needs being met?",
